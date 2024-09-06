@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: auto;
+}
+.home{
+    
+    background-image: url(./images/background1.jpg);
+    height: 80vh;
+    margin-top: 14px;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-bottom: 0px;
+    border: none;
+    max-width: 100%;
+}
+
+img{
+    height: 120px;
+    width: 190px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.h3-nav{
+    color: white;
+    margin-left: 190px;
+    margin-top: 1px;
+    font-size: 70px;
+    font-family: 'Pompiere';
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.p-nav{
+    color: white;
+    margin-left: 230px;
+    font-size:25px;
+    margin-top: 10px;
+    font-family: 'Pompiere';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.about{
+    background-image: url(./images/background2.jpg);
+    height: 80vh;
+    border: none;
+    margin-top: 0px;
+    margin-left: 14px;
+    margin-right: 14px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.about-image{
+    height:60vh;
+    width: 60vh;
+    margin-top:50px;
+    border-radius: 40px;
+}
+
+.h3-content{
+    color: black;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 190px;
+
+}
+
+.p1-content{
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 190px;
+}
+
+.p2-content{
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 190px;
+}
+
+.p3-content{
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 190px;
+}
+
+.coffee-content{
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-left: 0px;
+}
+
+.read-more{
+    margin-left: 190px;
+    margin-top: 20px;
+
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 190px;
+    border: none;
+    border-radius: 10px;
+}
+
+.reviews{
+    background-color: #967969;
+    margin-left: 14px;
+    margin-right: 14px;
+    height:80vh;
+    
+
+
+}
+
+.h3-reviews{
+    padding-top: 50px;
+    padding-left: 550px;
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+
+
+}
+
+.p-reviews{
+    font-size: 30px;
+    padding-left: 430px;
+    color:white;
+    padding-top: 10px;
+
+}
+
+.cards{
+    margin-left: 100px;
+    margin-right: 80px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card1{
+    height: 200px;
+    width: 400px;
+    margin-right: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5); 
+    background-image: url(./images/background2.jpg);   
+
+}
+
+.card1-content{
+    margin: 30px;
+    text-align:justify;  
+}
+
+.card2{
+    height: 200px;
+    width: 400px;
+    margin-right: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5); 
+    background-image: url(./images/background2.jpg);   
+
+}
+
+.card2-content{
+    margin: 30px;
+    text-align:justify;  
+}
+
+.card3{
+    height: 200px;
+    width: 400px;
+    margin-right: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5); 
+    background-image: url(./images/background2.jpg);   
+
+}
+
+.card3-content{
+    margin: 30px;
+    text-align:justify;  
+}
+
+.footer{
+    background-image: url(./images/background4.jpg);
+    margin-left: 14px;
+    margin-right: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contact-us{
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 30%;
+    width: 30%;
+}
+
+.contact-info{
+    margin-left: 120px;
+    color: white;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+input{
+    margin: 10px;
+    height: 50px;
+   
+}
+
+button{
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+.sitemap-info{
+    margin-top: 30px;
+    color: white;
+
+}
+nav{
+    margin-top: 30px;
+}
+li{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.logo-footer{
+    color: white;
+    margin-left: 0px;
+}
+
+.logo-img{
+    margin-left: 0px;
+}
